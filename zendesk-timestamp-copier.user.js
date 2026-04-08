@@ -1,9 +1,15 @@
 // ==UserScript==
 // @name         Zendesk Timestamp Copier
-// @namespace    https://bryanvillarin.link
+// @namespace    https://github.com/bryanvillarin/timestamp-copier-for-zendesk
 // @version      2.7.1
 // @description  Click any Zendesk conversation timestamp to copy as YYYY-MM-DD HH:mm TZ. Also rewrites all visible timestamps to that format. Respects the Zendesk user's time zone setting. Tooltip shows browser local time.
+// @author       Bryan Villarin
+// @homepage     https://bryanvillarin.link
+// @supportURL   https://bryanvillarin.link/contact/
+// @license      MIT
 // @match        https://*.zendesk.com/agent/*
+// @updateURL     https://raw.githubusercontent.com/bryanvillarin/timestamp-copier-for-zendesk/main/zendesk-timestamp-copier.user.js
+// @downloadURL   https://raw.githubusercontent.com/bryanvillarin/timestamp-copier-for-zendesk/main/zendesk-timestamp-copier.user.js
 // @grant        GM_setClipboard
 // @grant        GM_getValue
 // @grant        GM_setValue
